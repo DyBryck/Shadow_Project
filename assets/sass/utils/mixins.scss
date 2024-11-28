@@ -1,0 +1,17 @@
+/****Ombres****/
+@mixin footer_shadow {
+  box-shadow: 0 1px 15px rgba(0, 0, 0, 0.2);
+}
+
+@mixin picture_shadow {
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+@mixin gallery_shadow {
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+/****Couleur de fond des overlays****/
+@mixin overlay_color {
+  background-color: rgba(0, 0, 0, 0.2);
+}
